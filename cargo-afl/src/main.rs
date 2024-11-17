@@ -313,6 +313,7 @@ where
             -Z llvm-plugins={p}/cmplog-switches-pass.so \
             -Z llvm-plugins={p}/SanitizerCoveragePCGUARD.so \
             -Z llvm-plugins={p}/afl-llvm-dict2file.so
+            -Z llvm-plugins={p}/split-switches-pass.so \
             "
         ));
 
